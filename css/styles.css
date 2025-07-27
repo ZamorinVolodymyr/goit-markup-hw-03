@@ -14,11 +14,21 @@ ol {
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 p {
   margin: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 a {
@@ -106,7 +116,23 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
+
+.about {
+  padding: 60px 0;
+}
+
+.about-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.about-item {
+  width: calc((100% - 72px) / 4);
+}
+
 .footer-logo .logo-part {
   color: #f4f4fd;
 }
@@ -163,6 +189,12 @@ a {
 
 .team {
   background: #f4f4fd;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
 }
 
 .team-our {
