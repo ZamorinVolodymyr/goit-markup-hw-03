@@ -77,7 +77,7 @@ a {
 .hero {
   background: #2e2f42;
   padding-top: 188px;
-  padding-bottom: 292px;
+  padding-bottom: 188px;
   text-align: center;
 }
 
@@ -93,6 +93,9 @@ a {
 }
 
 .button {
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
@@ -254,7 +257,8 @@ a {
 }
 
 .portfolio {
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: #ffffff;
 }
 
